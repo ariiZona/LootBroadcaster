@@ -6,17 +6,17 @@ using TShockAPI;
 using Terraria;
 using TerrariaApi.Server;
 
-namespace TestPlugin
+namespace LootBroadcaster
 {
     [ApiVersion(2, 0)]
-    public class TestPlugin : TerrariaPlugin
+    public class LootBroadcaster : TerrariaPlugin
     {
         /// <summary>
         /// Gets the author(s) of this plugin
         /// </summary>
         public override string Author
         {
-            get { return "Anonymous"; }
+            get { return "arizona"; }
         }
 
         /// <summary>
@@ -25,7 +25,7 @@ namespace TestPlugin
         /// </summary>
         public override string Description
         {
-            get { return "A sample test plugin"; }
+            get { return "Tell everyone you got that sweet loot!"; }
         }
 
         /// <summary>
@@ -33,7 +33,7 @@ namespace TestPlugin
         /// </summary>
         public override string Name
         {
-            get { return "Test Plugin"; }
+            get { return "Loot Broadcaster"; }
         }
 
         /// <summary>
@@ -48,7 +48,7 @@ namespace TestPlugin
         /// Initializes a new instance of the TestPlugin class.
         /// This is where you set the plugin's order and perfrom other constructor logic
         /// </summary>
-        public TestPlugin(Main game) : base(game)
+        public LootBroadcaster(Main game) : base(game)
         {
 
         }
